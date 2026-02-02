@@ -1,2 +1,2 @@
 # Morse-Code-Translator
-This is a Morse Code translator which can convert english to morse code and vice versa. 
+A Morse Code translator that converts English to Morse Code and vice versa. Built using Arduino (C++), this project supports input/output through a button, LCD, LEDs, and the Serial Monitor.
