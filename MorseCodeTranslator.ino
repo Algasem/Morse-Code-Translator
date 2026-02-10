@@ -12,34 +12,6 @@
  * user inputs a word into the serial monitor, it is then displayed onto the lcd as morse code (dots and dashes).
  * When translating from morse code to english, it uses a button to allow the user to input their morse code, and then 
  * redisplays the english translation onto the LCD.
- * 
- * 
- * algasem_zabarah_summative_project1:
- * Created array for morse code
- * Checked if serial input is avaliable
- * When it is, it starts going through the word and translating it into morse code
- * It checks each letter, and uses the array alphabet to print the according morse code letter
- * 
- * 
- * 
- * algasem_zabarah_summative_project2:
- * Added a button to be pressed when the user wants to start typing in morse code
- * Coded the release and press of the button
- * Added according logic to detect the length of the button press
- * Flashed blue led for dashes and red led for dots
- * Added a short/long beep to go along with the dots and dashes
- * Added morse mode, which would be activated when user wants to type in morse language
- * Allowed user to exit morse mode, but pressing the start button again
- *
- * 
- * 
- * algasem_zabarah_summative_project3:
- * Tuned the logic so a dash is any press under 1000ms (1 second), instead of 1500ms
- * Finished commenting my code (this was done as I was coding)
- * Reviewed my code, for any bugs and errors
- * Formatted and indented my code
- * Removed unnecessary variables
- *
  */
 
 #include <LiquidCrystal_I2C.h>
